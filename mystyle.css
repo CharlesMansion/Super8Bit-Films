@@ -1,0 +1,37 @@
+body {
+  font-family: 'Work Sans', sans-serif;
+  background-image: url("wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+
+}
+
+.mybutton {
+	background-color: #de3636;
+	color:white;
+	text-decoration: none;
+
+
+}
+
+.cover-heading {
+
+font-size: 400%;
+margin-bottom: 0;
+}
+
+h2 {
+
+	margin-top:0;
+}
+
+
+footer {
+display:inline;
+position:absolute;
+bottom: 0;
+justify-content: center;
+
+}
+
