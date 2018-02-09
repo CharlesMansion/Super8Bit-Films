@@ -17,8 +17,15 @@ body {
 
 .cover-heading {
 
-font-size: 400%;
+font-size: 500%;
 margin-bottom: 0;
+}
+
+
+@media (max-width: 768px) {
+  .cover-heading {
+    font-size: 400%;
+  }
 }
 
 h2 {
@@ -26,12 +33,21 @@ h2 {
 	margin-top:0;
 }
 
-
-footer {
-display:inline;
-position:absolute;
-bottom: 0;
-justify-content: center;
-
+.btn {
+	position:relative;
+	top: 30px;
+	text-transform: uppercase;
 }
 
+footer  {
+	position:absolute;
+	bottom: 10px;
+	width:100%; 
+	font-size: 75%;  
+}
+
+@media (max-height: 500px) {
+  footer {
+    visibility: hidden;
+  }
+}
